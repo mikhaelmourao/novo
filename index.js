@@ -4,8 +4,9 @@ const app = express(); //iniciando o express
 //criando a rota inicial
 app.get("/", function(req,res){
     
-    //res.send("<h1>Bem vindo ao meu site!</h1>");
-    //
+     //res.send("<h1>Bem vindo ao meu site!</h1>");
+     //res.send("<h1>primeira msg modificada!</h1>");
+     res.send("<h1>segunda msg enviada!</h1>");
     
 })
 
