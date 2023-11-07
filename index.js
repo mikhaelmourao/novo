@@ -3,7 +3,9 @@ const app = express(); //iniciando o express
 
 //criando a rota inicial
 app.get("/", function(req,res){
+    
     res.send("<h1>Bem vindo ao meu site!</h1>");
+    res.send("<h1>PRIMEIRO COMMIT!</h1>");
 })
 
 //rota do cadastro de produtos
